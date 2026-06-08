@@ -1,0 +1,71 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Siya's Birthday Celebration</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Montserrat:wght@300;400;500&display=swap');
+        
+        body { font-family: 'Montserrat', sans-serif; background-color: #faf9f6; color: #2d2d2d; overflow-x: hidden; }
+        .serif { font-family: 'Playfair Display', serif; }
+        .hero-bg { background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('https://images.unsplash.com/photo-1513151233558-d860c5398176?q=80&w=2000'); background-size: cover; background-position: center; }
+    </style>
+</head>
+<body>
+
+    <!-- Hero Section -->
+    <section class="h-screen flex flex-col items-center justify-center text-white hero-bg px-4">
+        <h3 class="text-sm tracking-[0.4em] uppercase mb-4" data-aos="fade-up">June 09</h3>
+        <h1 class="text-6xl md:text-8xl serif mb-6" data-aos="fade-up" data-aos-delay="200">Siya</h1>
+        <p class="text-lg italic" data-aos="fade-up" data-aos-delay="400">Celebrating a beautiful journey</p>
+    </section>
+
+    <!-- Content Section -->
+    <section class="py-24 px-6 max-w-4xl mx-auto text-center">
+        <h2 class="serif text-4xl mb-12" data-aos="fade-up">A Special Day</h2>
+        <div class="grid md:grid-cols-2 gap-10 items-center">
+            <div data-aos="fade-right">
+                <img src="siya1" class="rounded-lg shadow-xl" alt="Siya">
+            </div>
+            <div data-aos="fade-left" class="text-left">
+                <p class="leading-relaxed text-lg italic">
+                    "എന്റെ പ്രിയപ്പെട്ട സിയക്ക് പിറന്നാൾ ആശംസകൾ. നിന്റെ ജീവിതം എപ്പോഴും സന്തോഷവും സ്നേഹവും നിറഞ്ഞതാകട്ടെ."
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Photo Gallery -->
+    <section class="py-24 bg-[#e5e1d8] px-6">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="serif text-4xl mb-16 text-center" data-aos="fade-up">Moments</h2>
+            <div class="grid grid-cols-2 gap-4">
+                <img src="siya2" class="w-full h-80 object-cover rounded shadow-lg" data-aos="zoom-in" alt="Gallery">
+                <img src="siya3" class="w-full h-80 object-cover rounded shadow-lg" data-aos="zoom-in" data-aos-delay="200" alt="Gallery">
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <section class="h-64 flex items-center justify-center bg-[#2d2d2d] text-white">
+        <div class="text-center" data-aos="fade-up">
+            <h3 class="serif text-2xl mb-2">Happy Birthday Siya!</h3>
+            <p class="text-sm opacity-60 uppercase tracking-widest">With Love</p>
+        </div>
+    </section>
+
+    <script>
+        AOS.init({
+            duration: 1000,
+            once: true
+        });
+    </script>
+</body>
+</html>
+
+```
